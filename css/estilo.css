@@ -1,0 +1,62 @@
+body{
+    margin: 10px;
+    padding: 30px;
+    }
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 20px;
+        justify-content: center;
+    }
+    .caja{
+        width: 350px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 3px 3px 0 2px;
+    
+    }
+    img{
+        border-radius: 10px;
+        position: relative;
+    }
+    .uno{
+        background-image: url(/imagenes/ap.jpg);
+    }
+    .dos{
+        background-image: url(/imagenes/bp.jpg);
+    }
+    .tres{
+        background-image: url(/imagenes/cp.jpg);
+    }
+    .cuatro{
+        background-image: url(/imagenes/dp.jpg);
+    }
+    .cinco{
+        background-image: url(/imagenes/ep.jpg);
+    }
+    .seis{
+        background-image: url(/imagenes/fp.jpg);
+    }
+    .siete{
+        background-image: url(/imagenes/gp.jpg);
+    }
+    .ocho{
+        background-image: url(/imagenes/hp.jpg);
+    }
+    .nueve{
+        background-image: url(/imagenes/ip.jpg);
+    }
+    
+    @media (max-width:600px){
+        
+    }
+
+
+
+
+
+
